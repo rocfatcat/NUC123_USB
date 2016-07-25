@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.8" name="NUC123_USB">
+  <Target name="NUC123_USB" isCurrent="1">
+    <Device manufacturerId="8" manufacturerName="Nuvoton" chipId="446" chipName="NUC123SD4AN0" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="NUC123SD4AN0"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00010000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00005000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="../../configuration/programdata/nuc123_usb/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="NUC123_USB"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="Nu-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="NUC1xx_64.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="46" name="M0 Cmsis Core" path="" type="2"/>
+    <Component id="2082" name="CMSIS Boost" path="" type="2"/>
+    <Component id="2083" name="NUC123_Lib3_0" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="StdLib/src/timer.c" path="StdLib/src/timer.c" type="1"/>
+    <File name="StdLib/inc/i2c.h" path="StdLib/inc/i2c.h" type="1"/>
+    <File name="cmsis_core/core_cmInstr.h" path="cmsis_core/core_cmInstr.h" type="1"/>
+    <File name="usb_description.c" path="usb_description.c" type="1"/>
+    <File name="StdLib/src/pdma.c" path="StdLib/src/pdma.c" type="1"/>
+    <File name="StdLib/src/fmc.c" path="StdLib/src/fmc.c" type="1"/>
+    <File name="StdLib/src/i2c.c" path="StdLib/src/i2c.c" type="1"/>
+    <File name="cmsis_core" path="" type="2"/>
+    <File name="StdLib/src" path="" type="2"/>
+    <File name="StdLib/inc/wwdt.h" path="StdLib/inc/wwdt.h" type="1"/>
+    <File name="StdLib/src/wdt.c" path="StdLib/src/wdt.c" type="1"/>
+    <File name="CMSIS_Boot/Start_UP" path="" type="2"/>
+    <File name="StdLib/inc/spi.h" path="StdLib/inc/spi.h" type="1"/>
+    <File name="StdLib/inc/fmc.h" path="StdLib/inc/fmc.h" type="1"/>
+    <File name="cmsis_core/core_cm0.h" path="cmsis_core/core_cm0.h" type="1"/>
+    <File name="StdLib/inc/i2s.h" path="StdLib/inc/i2s.h" type="1"/>
+    <File name="StdLib/inc/pdma.h" path="StdLib/inc/pdma.h" type="1"/>
+    <File name="StdLib/src/ps2.c" path="StdLib/src/ps2.c" type="1"/>
+    <File name="StdLib/src/i2s.c" path="StdLib/src/i2s.c" type="1"/>
+    <File name="StdLib/inc" path="" type="2"/>
+    <File name="StdLib/inc/uart.h" path="StdLib/inc/uart.h" type="1"/>
+    <File name="StdLib" path="" type="2"/>
+    <File name="StdLib/inc/gpio.h" path="StdLib/inc/gpio.h" type="1"/>
+    <File name="StdLib/src/wwdt.c" path="StdLib/src/wwdt.c" type="1"/>
+    <File name="StdLib/src/sys.c" path="StdLib/src/sys.c" type="1"/>
+    <File name="StdLib/src/spi.c" path="StdLib/src/spi.c" type="1"/>
+    <File name="cmsis_core/core_cmFunc.h" path="cmsis_core/core_cmFunc.h" type="1"/>
+    <File name="CMSIS_Boot/system_NUC123.h" path="CMSIS_Boot/system_NUC123.h" type="1"/>
+    <File name="StdLib/src/gpio.c" path="StdLib/src/gpio.c" type="1"/>
+    <File name="StdLib/inc/clk.h" path="StdLib/inc/clk.h" type="1"/>
+    <File name="StdLib/inc/sys.h" path="StdLib/inc/sys.h" type="1"/>
+    <File name="CMSIS_Boot" path="" type="2"/>
+    <File name="StdLib/inc/crc.h" path="StdLib/inc/crc.h" type="1"/>
+    <File name="StdLib/inc/usbd.h" path="StdLib/inc/usbd.h" type="1"/>
+    <File name="CMSIS_Boot/NUC123.h" path="CMSIS_Boot/NUC123.h" type="1"/>
+    <File name="usb_description.h" path="usb_description.h" type="1"/>
+    <File name="StdLib/src/adc.c" path="StdLib/src/adc.c" type="1"/>
+    <File name="StdLib/src/usbd.c" path="StdLib/src/usbd.c" type="1"/>
+    <File name="CMSIS_Boot/system_NUC123.c" path="CMSIS_Boot/system_NUC123.c" type="1"/>
+    <File name="StdLib/inc/wdt.h" path="StdLib/inc/wdt.h" type="1"/>
+    <File name="StdLib/src/uart.c" path="StdLib/src/uart.c" type="1"/>
+    <File name="StdLib/src/pwm.c" path="StdLib/src/pwm.c" type="1"/>
+    <File name="StdLib/inc/pwm.h" path="StdLib/inc/pwm.h" type="1"/>
+    <File name="CMSIS_Boot/Start_UP/startup_coide.c" path="CMSIS_Boot/Start_UP/startup_coide.c" type="1"/>
+    <File name="StdLib/src/retarget.c" path="StdLib/src/retarget.c" type="1"/>
+    <File name="StdLib/inc/adc.h" path="StdLib/inc/adc.h" type="1"/>
+    <File name="StdLib/src/clk.c" path="StdLib/src/clk.c" type="1"/>
+    <File name="StdLib/inc/ps2.h" path="StdLib/inc/ps2.h" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="StdLib/inc/timer.h" path="StdLib/inc/timer.h" type="1"/>
+    <File name="StdLib/src/crc.c" path="StdLib/src/crc.c" type="1"/>
+  </Files>
+</Project>
