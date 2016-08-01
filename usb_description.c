@@ -155,7 +155,7 @@ uint8_t gu8ProductStringDesc[] =
 {
     32,             /* bLength          */
     DESC_STRING,    /* bDescriptorType  */
-    'U', 0, 'S', 0, 'B', 0, ' ', 0, 'V', 0, 'i', 0, 'r', 0, 't', 0, 'u', 0, 'a', 0, 'l', 0, ' ', 0, 'C', 0, 'O', 0, 'M', 0
+    'U', 0, 'S', 0, 'B', 0, ' ', 0, 'D', 0, 'E', 0, 'B', 0, 'u', 0, 'G', 0, ' ', 0, 'C', 0, ' ', 0, 'A', 0, 'R', 0, 'D', 0
 };
 
 S_USBD_INFO_T gsInfo =

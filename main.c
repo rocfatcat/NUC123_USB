@@ -1,6 +1,6 @@
 #include "NUC123.h"
 #include "uart.h"
-
+#include "usb_device.h"
 void SYS_Init(void)
 {
 
@@ -68,6 +68,7 @@ void UART0_Init()
     UART_Open(UART0, 115200);
 }
 
+
 int main(void)
 {
     /* Unlock protected registers */
@@ -79,8 +80,10 @@ int main(void)
 
     /* lock protected registers */
     SYS_LockReg();
-
-    USBD_Open(&gsInfo, VCOM_ClassRequest, NULL);
+    USBD_Init();
+    USBD_Open(&gsInfo, USB_ClassRequest, NULL);
+    USBD_Start();
+    NVIC_EnableIRQ(USBD_IRQn);
     while(1)
     {
     }

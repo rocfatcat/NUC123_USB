@@ -32,7 +32,7 @@
 /* Define the interrupt In EP number */
 #define CDC_INT_IN_EP_NUM       0x02
 #define CDC_BULK_OUT_EP_NUM     0x03
-#define CDC_BULK_IN_EP_NUM      0x03
+#define CDC_BULK_IN_EP_NUM      0x04
 
 
 /* Define Descriptor information */

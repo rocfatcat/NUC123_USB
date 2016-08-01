@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DNUC123SD4AN0 -ID:\Lenny\Project\Git\NUC123_USB\StdLib\inc -ID:\Lenny\Project\Git\NUC123_USB\CMSIS_Boot -ID:\Lenny\Project\Git\NUC123_USB -ID:\Lenny\Project\Git -ID:\Lenny\Project\Git\NUC123_USB\StdLib -ID:\Lenny\Project -ID:\Lenny\Project\Git\NUC123_USB\cmsis_core">
+      <target file="spi.o" lastModified="15635e28f94">
+         <source file="..\..\..\StdLib\src\spi.c" lastModified="15634a77efe"/>
+      </target>
+      <target file="timer.o" lastModified="15635e290ee">
+         <source file="..\..\..\StdLib\src\timer.c" lastModified="15634a77f04"/>
+      </target>
+      <target file="gpio.o" lastModified="15635e2934a">
+         <source file="..\..\..\StdLib\src\gpio.c" lastModified="15634a77ee9"/>
+      </target>
+      <target file="crc.o" lastModified="15635e29461">
+         <source file="..\..\..\StdLib\src\crc.c" lastModified="15634a77ee5"/>
+      </target>
+      <target file="i2s.o" lastModified="15635e2965c">
+         <source file="..\..\..\StdLib\src\i2s.c" lastModified="15634a77eef"/>
+      </target>
+      <target file="startup_coide.o" lastModified="15635e28f19">
+         <source file="..\..\..\CMSIS_Boot\Start_UP\startup_coide.c" lastModified="15634a77e90"/>
+      </target>
+      <target file="ps2.o" lastModified="15635e2908d">
+         <source file="..\..\..\StdLib\src\ps2.c" lastModified="15634a77ef5"/>
+      </target>
+      <target file="fmc.o" lastModified="15635e29861">
+         <source file="..\..\..\StdLib\src\fmc.c" lastModified="15634a77ee6"/>
+      </target>
+      <target file="usb_description.o" lastModified="15635e2929b">
+         <source file="..\..\..\usb_description.c" lastModified="15635e16ba6"/>
+      </target>
+      <target file="i2c.o" lastModified="15635e29002">
+         <source file="..\..\..\StdLib\src\i2c.c" lastModified="15634a77eec"/>
+      </target>
+      <target file="wwdt.o" lastModified="15635e2940b">
+         <source file="..\..\..\StdLib\src\wwdt.c" lastModified="15634a77f0f"/>
+      </target>
+      <target file="pwm.o" lastModified="15635e2916e">
+         <source file="..\..\..\StdLib\src\pwm.c" lastModified="15634a77ef7"/>
+      </target>
+      <target file="usb_device.o" lastModified="15635e297f0">
+         <source file="..\..\..\usb_device.c" lastModified="15635dbb895"/>
+      </target>
+      <target file="usbd.o" lastModified="15635e29790">
+         <source file="..\..\..\StdLib\src\usbd.c" lastModified="15634a77f0a"/>
+      </target>
+      <target file="pdma.o" lastModified="15635e2958b">
+         <source file="..\..\..\StdLib\src\pdma.c" lastModified="15634a77ef2"/>
+      </target>
+      <target file="system_NUC123.o" lastModified="15635e296b5">
+         <source file="..\..\..\CMSIS_Boot\system_NUC123.c" lastModified="15634a77e93"/>
+      </target>
+      <target file="clk.o" lastModified="15635e294d2">
+         <source file="..\..\..\StdLib\src\clk.c" lastModified="15634a77ee2"/>
+      </target>
+      <target file="uart.o" lastModified="15635e291ef">
+         <source file="..\..\..\StdLib\src\uart.c" lastModified="15634a77f07"/>
+      </target>
+      <target file="wdt.o" lastModified="15635e29708">
+         <source file="..\..\..\StdLib\src\wdt.c" lastModified="15634a77f0d"/>
+      </target>
+      <target file="adc.o" lastModified="15635e295ee">
+         <source file="..\..\..\StdLib\src\adc.c" lastModified="15634a77edf"/>
+      </target>
+      <target file="sys.o" lastModified="15635e2924a">
+         <source file="..\..\..\StdLib\src\sys.c" lastModified="15634a77f01"/>
+      </target>
+      <target file="retarget.o" lastModified="15635e293b6">
+         <source file="..\..\..\StdLib\src\retarget.c" lastModified="15634a77efb"/>
+      </target>
+      <target file="main.o" lastModified="15635e292f6">
+         <source file="..\..\..\main.c" lastModified="15635d4422c"/>
+      </target>
+   </processor>
+</history>

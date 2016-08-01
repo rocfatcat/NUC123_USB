@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=NUC123_USB.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\NUC123_USB -TC:\CooCox\CoIDE\configuration\ProgramData\NUC123_USB/arm-gcc-link.ld -g">
+      <target file="NUC123_USB.elf" lastModified="15635e29a4a">
+         <source file="..\obj\startup_coide.o" lastModified="15635e28f19"/>
+         <source file="..\obj\spi.o" lastModified="15635e28f94"/>
+         <source file="..\obj\i2c.o" lastModified="15635e29002"/>
+         <source file="..\obj\ps2.o" lastModified="15635e2908d"/>
+         <source file="..\obj\timer.o" lastModified="15635e290ee"/>
+         <source file="..\obj\pwm.o" lastModified="15635e2916e"/>
+         <source file="..\obj\uart.o" lastModified="15635e291ef"/>
+         <source file="..\obj\sys.o" lastModified="15635e2924a"/>
+         <source file="..\obj\usb_description.o" lastModified="15635e2929b"/>
+         <source file="..\obj\main.o" lastModified="15635e292f6"/>
+         <source file="..\obj\gpio.o" lastModified="15635e2934a"/>
+         <source file="..\obj\retarget.o" lastModified="15635e293b6"/>
+         <source file="..\obj\wwdt.o" lastModified="15635e2940b"/>
+         <source file="..\obj\crc.o" lastModified="15635e29461"/>
+         <source file="..\obj\clk.o" lastModified="15635e294d2"/>
+         <source file="..\obj\pdma.o" lastModified="15635e2958b"/>
+         <source file="..\obj\adc.o" lastModified="15635e295ee"/>
+         <source file="..\obj\i2s.o" lastModified="15635e2965c"/>
+         <source file="..\obj\system_NUC123.o" lastModified="15635e296b5"/>
+         <source file="..\obj\wdt.o" lastModified="15635e29708"/>
+         <source file="..\obj\usbd.o" lastModified="15635e29790"/>
+         <source file="..\obj\usb_device.o" lastModified="15635e297f0"/>
+         <source file="..\obj\fmc.o" lastModified="15635e29861"/>
+      </target>
+   </processor>
+</history>

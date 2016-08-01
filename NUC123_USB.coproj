@@ -29,7 +29,7 @@
           <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
           <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
         </MemoryAreas>
-        <LocateLinkFile path="../../configuration/programdata/nuc123_usb/arm-gcc-link.ld" type="0"/>
+        <LocateLinkFile path="c:/coocox/coide/configuration/programdata/nuc123_usb/arm-gcc-link.ld" type="0"/>
       </Link>
       <Output>
         <Option name="OutputFileType" value="0"/>
@@ -73,6 +73,7 @@
     <File name="StdLib/src/timer.c" path="StdLib/src/timer.c" type="1"/>
     <File name="StdLib/inc/i2c.h" path="StdLib/inc/i2c.h" type="1"/>
     <File name="cmsis_core/core_cmInstr.h" path="cmsis_core/core_cmInstr.h" type="1"/>
+    <File name="usb_device.c" path="usb_device.c" type="1"/>
     <File name="usb_description.c" path="usb_description.c" type="1"/>
     <File name="StdLib/src/pdma.c" path="StdLib/src/pdma.c" type="1"/>
     <File name="StdLib/src/fmc.c" path="StdLib/src/fmc.c" type="1"/>
@@ -92,8 +93,9 @@
     <File name="StdLib/inc" path="" type="2"/>
     <File name="StdLib/inc/uart.h" path="StdLib/inc/uart.h" type="1"/>
     <File name="StdLib" path="" type="2"/>
-    <File name="StdLib/inc/gpio.h" path="StdLib/inc/gpio.h" type="1"/>
+    <File name="usb_device.h" path="usb_device.h" type="1"/>
     <File name="StdLib/src/wwdt.c" path="StdLib/src/wwdt.c" type="1"/>
+    <File name="StdLib/inc/gpio.h" path="StdLib/inc/gpio.h" type="1"/>
     <File name="StdLib/src/sys.c" path="StdLib/src/sys.c" type="1"/>
     <File name="StdLib/src/spi.c" path="StdLib/src/spi.c" type="1"/>
     <File name="cmsis_core/core_cmFunc.h" path="cmsis_core/core_cmFunc.h" type="1"/>
@@ -108,8 +110,8 @@
     <File name="usb_description.h" path="usb_description.h" type="1"/>
     <File name="StdLib/src/adc.c" path="StdLib/src/adc.c" type="1"/>
     <File name="StdLib/src/usbd.c" path="StdLib/src/usbd.c" type="1"/>
-    <File name="CMSIS_Boot/system_NUC123.c" path="CMSIS_Boot/system_NUC123.c" type="1"/>
     <File name="StdLib/inc/wdt.h" path="StdLib/inc/wdt.h" type="1"/>
+    <File name="CMSIS_Boot/system_NUC123.c" path="CMSIS_Boot/system_NUC123.c" type="1"/>
     <File name="StdLib/src/uart.c" path="StdLib/src/uart.c" type="1"/>
     <File name="StdLib/src/pwm.c" path="StdLib/src/pwm.c" type="1"/>
     <File name="StdLib/inc/pwm.h" path="StdLib/inc/pwm.h" type="1"/>
